@@ -17,7 +17,7 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import CreateBoardForm from "@/shared/components/CreateBoardForm.vue";
+import CreateBoardForm from "@/components/CreateBoardForm.vue";
 
 @Component({
   components: { CreateBoardForm },

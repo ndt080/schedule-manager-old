@@ -8,10 +8,10 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import NavigationBar from "@/shared/components/NavigationBar.vue";
+import NavigationBar from "@/components/NavigationBar.vue";
 import { Action, Getter } from "vuex-class";
 import { User } from "@/core/models/user.model";
-import Loader from "@/shared/components/Loader.vue";
+import Loader from "@/components/Loader.vue";
 
 @Component({
   components: { Loader, NavigationBar },

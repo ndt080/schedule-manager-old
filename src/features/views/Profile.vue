@@ -7,7 +7,7 @@
         >
           <b-avatar class="avatar" rounded="sm" :src="getAvatar()"></b-avatar>
           <!--          <img :src="getAvatar()" class="avatar" alt="User-Profile-Image" />-->
-          <h2>{{ user.name }}</h2>
+          <h2>{{ user.displayName }}</h2>
           <h5 class="text-warning">{{ user.status }}</h5>
         </div>
         <div class="col-sm-8">
