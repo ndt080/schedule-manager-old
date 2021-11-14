@@ -5,8 +5,8 @@
 </template>
 
 <script>
-import HomeLayout from "@/features/layouts/HomeLayout.vue";
-import EmptyLayout from "@/features/layouts/EmptyLayout.vue";
+import HomeLayout from "@/layouts/HomeLayout.vue";
+import AuthLayout from "@/layouts/AuthLayout.vue";
 
 export default {
   name: "App",
@@ -16,7 +16,7 @@ export default {
     },
   },
   components: {
-    EmptyLayout,
+    AuthLayout,
     HomeLayout,
   },
 };
